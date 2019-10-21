@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Check Age</title>
+    <link rel="stylesheet" href="checkAge.css">
+</head>
+<body>
+    <header>
+        <h1>Check Age</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of Birth: 
+                <input type="number" name="ano" id="ano" min="1900" max="2019">
+            </p>
+            <p>Sex: 
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Male</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Check" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Fill in the data above to see the result!
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Jeverson Developer</p>
+    </footer>
+    <script src="checkAge.js"></script>
+</body>
+</html>

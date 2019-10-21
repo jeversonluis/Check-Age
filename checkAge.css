@@ -1,0 +1,12 @@
+body {
+    font: normal 12pt helvetica;
+    text-align: center;
+}
+
+section {
+    background: rgb(21, 185, 185);
+    color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
